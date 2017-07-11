@@ -15,7 +15,7 @@ Scripts used for the conference proceeding "B.A. Besler, A.S. Michalski, N.D. Fo
 `imageProc` contains scripts which did some image processing, such as thresholding or dilation. This also contains the Elastix files.
 
 # Krcah Segmentation
-The Kcrcah segmentation technique is [available online](https://github.com/mkrcah/bone-segmentation).
+The Krcah segmentation technique is [available online](https://github.com/mkrcah/bone-segmentation).
 This project also contains some excellent datasets for testing against.
 I was only able to build the project against ITK v3.10.2.
 This can be checked out as a tag from the online [git repository](https://github.com/InsightSoftwareConsortium/ITK).
@@ -27,3 +27,10 @@ It can be attained from the [Elastix Website](http://elastix.isi.uu.nl/).
 For the selection criterion, first run the `Affine.txt` file with your data
 Metrics can be grabbed using grep (`grep -r -a "Final Metric: " *`).
 Sort the metrics by hand and run the best ranked metric with the `BSpline.txt` file.
+
+# Example data
+Example data can be found in the Krcah [repository](https://github.com/krcah/bone-segmentation).
+We are working on publishing a larger dataset containing the images from this study.
+This information will be updated when that happens.
+Please contact us if you would like access to the origin data.
+
